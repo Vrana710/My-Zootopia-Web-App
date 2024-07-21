@@ -1,0 +1,377 @@
+<html>
+    <head>
+        <style>
+        @gray-darker:               #444444;
+        @gray-dark:                 #696969;
+        @gray:                      #999999;
+        @gray-light:                #cccccc;
+        @gray-lighter:              #ececec;
+        @gray-lightest:             lighten(@gray-lighter,4%);
+
+
+        html {
+          background-color: #ffe9e9;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40pt;
+            font-weight: normal;
+        }
+
+        body {
+          font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          letter-spacing: 0;
+          padding: 1rem;
+          text-rendering: optimizeLegibility;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          -moz-font-feature-settings: "liga" on;
+          width: 900px;
+          margin: auto;
+        }
+
+        .cards {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+
+        .cards__item {
+          background-color: white;
+          border-radius: 0.25rem;
+          box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+          overflow: hidden;
+          padding: 1rem;
+          margin: 50px;
+        }
+
+        .card__title {
+          color: @gray-dark;
+          font-size: 1.25rem;
+          font-weight: 300;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+        }
+
+        .card__text {
+          flex: 1 1 auto;
+          font-size: 0.95rem;
+          line-height: 2;
+          margin-bottom: 1.25rem;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>My Animal Repository</h1>
+        <ul class="cards">
+            <li class="cards__item">
+  <div class="card__title">American Foxhound</div>
+  <p class="card__text">
+    <strong>Location:</strong> North-America<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Omnivore<br/>
+    <strong>Group:</strong> Dog<br/>
+    <strong>Lifespan:</strong> 10 to 12 years<br/>
+    <strong>Training:</strong> Medium<br/>
+    <strong>Temperament:</strong> Mix of affectionate, loving, and stubborn<br/>
+    <strong>Distinctive_feature:</strong> Long legs and wide, flat ears<br/>
+    <strong>Average_litter_size:</strong> 7<br/>
+    <strong>Common_name:</strong> American Foxhound<br/>
+    <strong>Slogan:</strong> Sweet, kind, loyal, and very loving!<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Arctic Fox</div>
+  <p class="card__text">
+    <strong>Location:</strong> Eurasia<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Carnivore<br/>
+    <strong>Group:</strong> N/A<br/>
+    <strong>Lifespan:</strong> 7 - 10 years<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> N/A<br/>
+    <strong>Distinctive_feature:</strong> Thick fur that changes colour with season<br/>
+    <strong>Average_litter_size:</strong> 5<br/>
+    <strong>Common_name:</strong> N/A<br/>
+    <strong>Slogan:</strong> Extremely thick winter fur!<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Cross Fox</div>
+  <p class="card__text">
+    <strong>Location:</strong> North-America<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Carnivore<br/>
+    <strong>Group:</strong> N/A<br/>
+    <strong>Lifespan:</strong> 10 to 15 years in captivity, seven years in the wild<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> N/A<br/>
+    <strong>Distinctive_feature:</strong> N/A<br/>
+    <strong>Average_litter_size:</strong> N/A<br/>
+    <strong>Common_name:</strong> cross fox<br/>
+    <strong>Slogan:</strong> N/A<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Darwin’s fox</div>
+  <p class="card__text">
+    <strong>Location:</strong> South-America<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Omnivore<br/>
+    <strong>Group:</strong> N/A<br/>
+    <strong>Lifespan:</strong> Seven years<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> N/A<br/>
+    <strong>Distinctive_feature:</strong> N/A<br/>
+    <strong>Average_litter_size:</strong> N/A<br/>
+    <strong>Common_name:</strong> N/A<br/>
+    <strong>Slogan:</strong> N/A<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">English Foxhound</div>
+  <p class="card__text">
+    <strong>Location:</strong> Europe<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Omnivore<br/>
+    <strong>Group:</strong> N/A<br/>
+    <strong>Lifespan:</strong> 10 to 13 years<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> Friendly, independent, affectionate<br/>
+    <strong>Distinctive_feature:</strong> N/A<br/>
+    <strong>Average_litter_size:</strong> N/A<br/>
+    <strong>Common_name:</strong> N/A<br/>
+    <strong>Slogan:</strong> N/A<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Fennec Fox</div>
+  <p class="card__text">
+    <strong>Location:</strong> Africa<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Omnivore<br/>
+    <strong>Group:</strong> Mammal<br/>
+    <strong>Lifespan:</strong> 10 - 14 years<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> N/A<br/>
+    <strong>Distinctive_feature:</strong> N/A<br/>
+    <strong>Average_litter_size:</strong> 3<br/>
+    <strong>Common_name:</strong> Fennec Fox<br/>
+    <strong>Slogan:</strong> Found in the African Sahara Desert!<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Fox</div>
+  <p class="card__text">
+    <strong>Location:</strong> Africa<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Carnivore<br/>
+    <strong>Group:</strong> N/A<br/>
+    <strong>Lifespan:</strong> 3 - 11 years<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> N/A<br/>
+    <strong>Distinctive_feature:</strong> Pointed ears and long bushy tail<br/>
+    <strong>Average_litter_size:</strong> 5<br/>
+    <strong>Common_name:</strong> N/A<br/>
+    <strong>Slogan:</strong> There are 12 different species in the world!<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Fox Snakes</div>
+  <p class="card__text">
+    <strong>Location:</strong> North-America<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Carnivore<br/>
+    <strong>Group:</strong> N/A<br/>
+    <strong>Lifespan:</strong> approximately 20 years<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> Shy, but generally docile.<br/>
+    <strong>Distinctive_feature:</strong> Strongly patterned alternating blotches down the length of their spine.<br/>
+    <strong>Average_litter_size:</strong> N/A<br/>
+    <strong>Common_name:</strong> Fox snake<br/>
+    <strong>Slogan:</strong> N/A<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Fox Squirrel</div>
+  <p class="card__text">
+    <strong>Location:</strong> Central-America<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Omnivore<br/>
+    <strong>Group:</strong> social<br/>
+    <strong>Lifespan:</strong> 6-12.6 years<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> N/A<br/>
+    <strong>Distinctive_feature:</strong> N/A<br/>
+    <strong>Average_litter_size:</strong> N/A<br/>
+    <strong>Common_name:</strong> fox squirrel<br/>
+    <strong>Slogan:</strong> N/A<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Fox Terrier</div>
+  <p class="card__text">
+    <strong>Location:</strong> Europe<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Omnivore<br/>
+    <strong>Group:</strong> Terrier<br/>
+    <strong>Lifespan:</strong> 14 years<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> N/A<br/>
+    <strong>Distinctive_feature:</strong> N/A<br/>
+    <strong>Average_litter_size:</strong> N/A<br/>
+    <strong>Common_name:</strong> Fox Terrier<br/>
+    <strong>Slogan:</strong> First bred in the mid-19th century!<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Golden-Crowned Flying Fox</div>
+  <p class="card__text">
+    <strong>Location:</strong> Asia<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Herbivore<br/>
+    <strong>Group:</strong> They live in large gatherings in the woods<br/>
+    <strong>Lifespan:</strong> unknown<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> N/A<br/>
+    <strong>Distinctive_feature:</strong> N/A<br/>
+    <strong>Average_litter_size:</strong> N/A<br/>
+    <strong>Common_name:</strong> Golden crowned flying fox<br/>
+    <strong>Slogan:</strong> N/A<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Gray Fox</div>
+  <p class="card__text">
+    <strong>Location:</strong> Central-America<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Omnivore<br/>
+    <strong>Group:</strong> N/A<br/>
+    <strong>Lifespan:</strong> 6-12 years<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> N/A<br/>
+    <strong>Distinctive_feature:</strong> N/A<br/>
+    <strong>Average_litter_size:</strong> N/A<br/>
+    <strong>Common_name:</strong> Gray Fox<br/>
+    <strong>Slogan:</strong> N/A<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Kit Fox</div>
+  <p class="card__text">
+    <strong>Location:</strong> Central-America<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Omnivore<br/>
+    <strong>Group:</strong> solitary<br/>
+    <strong>Lifespan:</strong> seven years in the wild. 12 years in captivity<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> N/A<br/>
+    <strong>Distinctive_feature:</strong> N/A<br/>
+    <strong>Average_litter_size:</strong> N/A<br/>
+    <strong>Common_name:</strong> kit fox<br/>
+    <strong>Slogan:</strong> N/A<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Marble Fox</div>
+  <p class="card__text">
+    <strong>Location:</strong> North-America<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Omnivore<br/>
+    <strong>Group:</strong> N/A<br/>
+    <strong>Lifespan:</strong> Up to 15 years<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> N/A<br/>
+    <strong>Distinctive_feature:</strong> N/A<br/>
+    <strong>Average_litter_size:</strong> N/A<br/>
+    <strong>Common_name:</strong> Marble fox<br/>
+    <strong>Slogan:</strong> N/A<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Red Fox</div>
+  <p class="card__text">
+    <strong>Location:</strong> Africa<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Omnivore<br/>
+    <strong>Group:</strong> N/A<br/>
+    <strong>Lifespan:</strong> 2-4 years in the wild, 10-12 in captivity<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> N/A<br/>
+    <strong>Distinctive_feature:</strong> N/A<br/>
+    <strong>Average_litter_size:</strong> 1-13<br/>
+    <strong>Common_name:</strong> Red fox<br/>
+    <strong>Slogan:</strong> N/A<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Smooth Fox Terrier</div>
+  <p class="card__text">
+    <strong>Location:</strong> Europe<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Omnivore<br/>
+    <strong>Group:</strong> N/A<br/>
+    <strong>Lifespan:</strong> 12 – 15 years<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> Energetic and curious<br/>
+    <strong>Distinctive_feature:</strong> N/A<br/>
+    <strong>Average_litter_size:</strong> N/A<br/>
+    <strong>Common_name:</strong> N/A<br/>
+    <strong>Slogan:</strong> N/A<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Tibetan Fox</div>
+  <p class="card__text">
+    <strong>Location:</strong> Asia<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Carnivore<br/>
+    <strong>Group:</strong> N/A<br/>
+    <strong>Lifespan:</strong> 8-10 years<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> N/A<br/>
+    <strong>Distinctive_feature:</strong> N/A<br/>
+    <strong>Average_litter_size:</strong> N/A<br/>
+    <strong>Common_name:</strong> Tibetan fox<br/>
+    <strong>Slogan:</strong> N/A<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Toy Fox Terrier</div>
+  <p class="card__text">
+    <strong>Location:</strong> North-America<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Omnivore<br/>
+    <strong>Group:</strong> N/A<br/>
+    <strong>Lifespan:</strong> 11-14 years<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> Intelligent, friendly, alert, playful, loyal, spirited<br/>
+    <strong>Distinctive_feature:</strong> N/A<br/>
+    <strong>Average_litter_size:</strong> N/A<br/>
+    <strong>Common_name:</strong> N/A<br/>
+    <strong>Slogan:</strong> N/A<br/>
+  </p>
+</li>
+<li class="cards__item">
+  <div class="card__title">Wire Fox Terrier</div>
+  <p class="card__text">
+    <strong>Location:</strong> Europe<br/>
+    <strong>Type:</strong> N/A<br/>
+    <strong>Diet:</strong> Omnivore<br/>
+    <strong>Group:</strong> N/A<br/>
+    <strong>Lifespan:</strong> 13 – 14 years<br/>
+    <strong>Training:</strong> N/A<br/>
+    <strong>Temperament:</strong> Alert, friendly, and confident<br/>
+    <strong>Distinctive_feature:</strong> N/A<br/>
+    <strong>Average_litter_size:</strong> N/A<br/>
+    <strong>Common_name:</strong> N/A<br/>
+    <strong>Slogan:</strong> N/A<br/>
+  </p>
+</li>
+
+        </ul>
+    </body>
+</html>
