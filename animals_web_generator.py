@@ -7,10 +7,19 @@ def load_data(file_path):
 
 animals_data = load_data('animals_data.json')
 
+output = ""
 for animal in animals_data:
-    print(f"Name: {animal['name']}")
-    print(f"Diet: {animal['characteristics']['diet']}")
-    print(f"Location: {animal['locations'][0]}")
+    output += f"Name: {animal['name']}<br/>\n"
+    output += f"Diet: {animal['characteristics']['diet']}<br/>\n"
+    output += f"Location: {animal['locations'][0]}<br/>\n"
     if 'type' in animal:
-        print(f"Type: {animal['type']}")
-    print()
+        output += f"Type: {animal['type']}<br/>\n"
+    output += "<br/>\n"
+
+with open('animals_template.html', 'r') as file:
+    template = file.read()
+
+html_content = template.replace('__REPLACE_ANIMALS_INFO__', output)
+
+with open('animals.html', 'w') as file:
+    file.write(html_content)
